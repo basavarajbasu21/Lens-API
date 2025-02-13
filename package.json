@@ -1,0 +1,19 @@
+{
+  "name": "lens-signless-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lens-protocol/client": "^1.3.1",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "pinata-web3": "^0.5.4"
+  },
+  "description": ""
+}
