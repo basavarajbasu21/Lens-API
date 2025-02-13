@@ -1,4 +1,35 @@
 "# Lens-API"
+### Node.js Project Setup Guide
+
+#### Initialize a Node.js Project
+1. Open your terminal and run the following commands:
+
+```bash
+mkdir lens-signless-example
+cd lens-signless-example
+npm init -y
+```
+
+#### Install Required Packages
+2. Install the Lens SDK and other necessary packages:
+
+```bash
+npm install @lens-protocol/client ethers dotenv
+```
+#### Run the code
+```bash
+node index.js
+```
+
+#### Summary
+- `mkdir lens-signless-example` creates a new directory for the project.
+- `cd lens-signless-example` navigates into the project directory.
+- `npm init -y` initializes a new Node.js project with default settings.
+- `npm install @lens-protocol/client ethers dotenv` installs the required dependencies for working with the Lens Protocol.
+- 'node index.js' Run the code.
+
+Your Node.js project is now set up and ready to use.
+
 
 # Configuration File
 
@@ -45,3 +76,5 @@ _README: How to Obtain the Required IDs and Keys_
 - Retrieve it using the Lens API by querying your past publications.
 
 Let me know if you need further details! 🚀
+
+
